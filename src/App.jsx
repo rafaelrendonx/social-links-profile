@@ -2,10 +2,10 @@ import avatar from '../assets/images/avatar-jessica.jpeg'
 
 export default function App() {
   return (
-    <div className="bg-custom-offblack min-h-screen px-5 py-[7.25rem]">
-      <div className="bg-custom-darkgrey rounded-xl pt-6 px-6 pb-4">
-        <img src={avatar} alt="avatar" className='rounded-full mx-auto size-[5.5rem]' />
-        <h1 className="text-custom-white text-2xl font-inter font-semibold text-center pt-7">Jessica Randall</h1>
+    <div className="bg-custom-offblack min-h-screen px-5 py-[7.25rem] desktop:px-96">
+      <div className="bg-custom-darkgrey rounded-xl pt-6 px-6 pb-4 desktop:mx-36 desktop:mt-12 desktop:pb-8">
+        <img src={avatar} alt="avatar" className='rounded-full mx-auto size-[5.5rem] desktop:mt-5'/>
+        <h1 className="text-custom-white text-2xl font-inter font-semibold text-center pt-7 desktop:pt-8">Jessica Randall</h1>
         <p className='text-custom-green text-center font-inter font-semibold p-1 text-sm'>London, United Kingdom</p>
         <p className='text-gray-300 text-center font-inter py-5 text-sm'>"Front end developer and avid reader."</p>
         <div className='flex flex-col'>
